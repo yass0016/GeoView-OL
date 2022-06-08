@@ -13,16 +13,24 @@
     },
     "layers": [
       {
-        "id": "esriFeatureLYR3",
+        "id": "geojsonLYR5",
         "name": {
-          "en": "Geothermal",
-          "fr": "Géothermie"
+          "en": "GeoJSON Sample",
+          "fr": "Exemple GeoJSON"
         },
         "url": {
-          "en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/NACEI/energy_infrastructure_of_north_america_en/MapServer/2",
-          "fr": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/NACEI/energy_infrastructure_of_north_america_fr/MapServer/1"
+          "en": "./geojson/historical_flood_0.geojson",
+          "fr": "./geojson/polygons.json"
         },
-        "layerType": "esriFeature"
+        "renderer": {
+          "radius": 5,
+          "fillColor": "#ff7800",
+          "color": "#000",
+          "weight": 1,
+          "opacity": 1,
+          "fillOpacity": 0.8
+        },
+        "layerType": "geojson"
       }
     ],
     "controls": {
