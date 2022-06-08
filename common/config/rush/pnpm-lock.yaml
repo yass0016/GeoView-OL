@@ -193,7 +193,6 @@ importers:
       react-test-renderer: ^17.0.2
       sass: ^1.49.7
       sass-loader: ^12.4.0
-      screenfull: ^6.0.1
       style-loader: ^3.3.1
       terser-webpack-plugin: ^5.3.1
       typedoc: ^0.22.17
@@ -238,7 +237,6 @@ importers:
       react-i18next: 11.16.8_8f2a12f93b34591c18c344cd829419b1
       react-leaflet: 3.2.5_f2bc606f83c617542d0a54cd51b317f0
       react-test-renderer: 17.0.2_react@17.0.2
-      screenfull: 6.0.1
       wms-capabilities: 0.5.1
     devDependencies:
       '@babel/cli': 7.17.10_@babel+core@7.17.10
@@ -7816,11 +7814,6 @@ packages:
       ajv-formats: 2.1.1
       ajv-keywords: 5.1.0_ajv@8.11.0
     dev: true
-
-  /screenfull/6.0.1:
-    resolution: {integrity: sha512-yzQW+j4zMUBQC51xxWaoDYjxOtl8Kn+xvue3p6v/fv2pIi1jH4AldgVLU8TBfFVgH2x3VXlf3+YiA/AYIPlaew==}
-    engines: {node: ^14.13.1 || >=16.0.0}
-    dev: false
 
   /select-hose/2.0.0:
     resolution: {integrity: sha1-Yl2GWPhlr0Psliv8N2o3NZpJlMo=}
