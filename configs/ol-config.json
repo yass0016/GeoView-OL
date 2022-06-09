@@ -5,22 +5,22 @@
       "zoom": 4,
       "center": [-100, 60]
     },
-    "projection": 3857,
+    "projection": 3978,
     "basemapOptions": {
       "id": "transport",
-      "shaded": false,
+      "shaded": true,
       "labeled": true
     },
     "layers": [
       {
-        "id": "geojsonLYR1",
+        "id": "geojsonLYR5",
         "name": {
           "en": "GeoJSON Sample",
           "fr": "Exemple GeoJSON"
         },
         "url": {
           "en": "./geojson/historical_flood_0.geojson",
-          "fr": "./geojson/historical_flood_0.geojson"
+          "fr": "./geojson/polygons.json"
         },
         "renderer": {
           "radius": 5,

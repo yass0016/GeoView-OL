@@ -14,12 +14,6 @@ object-assign
  * (c) 2010-2022 Vladimir Agafonkin, (c) 2010-2011 CloudMade
  */
 
-/* @preserve
-* @terraformer/arcgis - v2.0.7 - MIT
-* Copyright (c) 2012-2021 Environmental Systems Research Institute, Inc.
-* Thu Jul 22 2021 13:58:30 GMT-0700 (Pacific Daylight Time)
-*/
-
 /*!
 * focus-trap 6.9.0
 * @license MIT, https://github.com/focus-trap/focus-trap/blob/master/LICENSE
