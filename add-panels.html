@@ -3,7 +3,7 @@
           'interaction': 'dynamic',
           'initialView': {
             'zoom': 4,
-            'center': [60, -100]
+            'center': [-100, 60]
           },
           'projection': 3857,
           'basemapOptions': {
@@ -32,11 +32,8 @@
         addAppbarPanelBtn.addEventListener('click', function (e) {
           const button = {
             tooltip: 'Test',
-            icon: '<i class="material-icons">apps</i>',
-            variant: 'text',
             tooltipPlacement: 'right',
-            type: 'textWithIcon',
-            children: 'Test',
+            children: cgpv.react.createElement(cgpv.ui.elements.AppsIcon),
           };
 
           const panel = {
@@ -58,7 +55,8 @@
         addNavbarPanelBtn.addEventListener('click', function (e) {
           const button = {
             tooltip: 'Test',
-            icon: '<i class="material-icons">apps</i>',
+            children: cgpv.react.createElement(cgpv.ui.elements.AppsIcon),
+            tooltipPlacement: 'left',
           };
 
           const panel = {
@@ -80,7 +78,8 @@
         addNavbarButtonBtn.addEventListener('click', function (e) {
           const button = {
             tooltip: 'Test',
-            icon: '<i class="material-icons">open_in_browser</i>',
+            children: cgpv.react.createElement(cgpv.ui.elements.OpenInBrowserIcon),
+            tooltipPlacement: 'left',
             onClick: function () {
               alert('test function');
             },
@@ -98,7 +97,8 @@
         addNavbarButtonGroupBtn.addEventListener('click', function (e) {
           const button = {
             tooltip: 'Group',
-            icon: '<i class="material-icons">group</i>',
+            tooltipPlacement: 'left',
+            children: cgpv.react.createElement(cgpv.ui.elements.GroupIcon),
           };
 
           const panel = {
